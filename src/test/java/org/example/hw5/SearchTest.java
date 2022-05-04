@@ -19,7 +19,7 @@ public class SearchTest extends AbstractTest {
         Actions search = new Actions(getDriver());
 
         search.click(getDriver().findElement(By.cssSelector(".search_btn")))
-                .pause(1000l)
+                .pause(3000l)
                 .sendKeys(getDriver().findElement(By.cssSelector("#search")), "платья")
                 .pause(1000l)
                 .click(getDriver().findElement(By.cssSelector(".find")))
